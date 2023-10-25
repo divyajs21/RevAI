@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body{
+background:url("Untitled design (1).png");
+position: relative;
+min-height: 100vh;
+width:100%;
+background-repeat: no-repeat;
+
+}
+
+.wave{
+  position: absolute;
+    bottom:0;
+    width:100%;
+
+}
+.navbar{
+    margin-left:50px;
+    
+}
+.navbar-nav{
+    color:aliceblue;
+}
+
+.navbar-brand{
+    font-size: 60px;
+    color:white;
+}
+
+.carousal-slide{
+    height:100px;
+    width:100px;
+}
+
+#testimonials{
+    padding:7% 15%;
+    text-align: center;
+    color:#fff;}
+
+.testi{
+    width:45%;
+    border-radius:5%;
+    margin:5px;
+
+}
